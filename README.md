@@ -8,10 +8,9 @@ EV of each position
 
 WITHOUT ACE: 
 
+```
   P\D       2       3       4       5       6       7       8       9      10      11
 ----------------------------------------------------------------------------------------
-    4 |
-    5 |
     6 | -0.1415 -0.1091 -0.0679 -0.0359  0.0018 -0.1539 -0.2169 -0.2891 -0.3341 -0.3386
     7 | -0.1093 -0.0777 -0.0460 -0.0112  0.0294 -0.0720 -0.2094 -0.2792 -0.3193 -0.3475
     8 | -0.0274  0.0094  0.0349  0.0711  0.1039  0.0785 -0.0609 -0.2051 -0.2438 -0.2582
@@ -27,12 +26,11 @@ WITHOUT ACE:
    18 |  0.1052  0.1529  0.1624  0.2041  0.2304  0.3943  0.1023 -0.1758 -0.1633 -0.2123
    19 |  0.3827  0.3892  0.4089  0.4303  0.4583  0.6138  0.5949  0.2944  0.0598  0.1922
    20 |  0.6276  0.6523  0.6534  0.6704  0.6758  0.7700  0.7976  0.7608  0.5609  0.5964
-
+```
 WITH ACE:
-
+```
   P\D       2       3       4       5       6       7       8       9      10
 ----------------------------------------------------------------------------------------
-   12 |
    13 |  0.0456  0.0720  0.1032  0.1284  0.1662  0.1207  0.0527 -0.0352 -0.1027 -0.0956
    14 |  0.0202  0.0527  0.0822  0.1086  0.1448  0.0775  0.0119 -0.0726 -0.1376 -0.1310
    15 | -0.0021  0.0288  0.0593  0.0900  0.1226  0.0352 -0.0283 -0.1096 -0.1722 -0.1658
@@ -42,11 +40,11 @@ WITH ACE:
    19 |  0.3806  0.4025  0.4199  0.4400  0.4442  0.6082  0.5840  0.2909  0.0661  0.1888
    20 |  0.6385  0.6509  0.6476  0.6724  0.6769  0.7799  0.7930  0.7600  0.5536  0.6138
    21 |  0.8802  0.8837  0.8855  0.8921  0.8902  0.9275  0.9294  0.9390  0.9642  0.9083
-   
+```
 For an average EV of -0.0137
 
 And the appropriate action to take to maximise the EV.
-
+```
     4 |     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT
     5 |     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT
     6 |     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT
@@ -64,9 +62,9 @@ And the appropriate action to take to maximise the EV.
    18 |   STAND   STAND   STAND   STAND   STAND   STAND   STAND   STAND   STAND   STAND
    19 |   STAND   STAND   STAND   STAND   STAND   STAND   STAND   STAND   STAND   STAND
    20 |   STAND   STAND   STAND   STAND   STAND   STAND   STAND   STAND   STAND   STAND
-
+```
 WITH AN ACE:
-
+```
    13 |     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT
    14 |     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT
    15 |     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT
@@ -76,5 +74,5 @@ WITH AN ACE:
    19 |   STAND   STAND   STAND   STAND   STAND   STAND   STAND   STAND   STAND   STAND
    20 |   STAND   STAND   STAND   STAND   STAND   STAND   STAND   STAND   STAND   STAND
    21 |   STAND   STAND   STAND   STAND   STAND   STAND   STAND   STAND   STAND   STAND
-
+```
    
