@@ -2,7 +2,7 @@
 
 This is a solver using MonteCarlo methods intended to find the EV of blackjack and to find the optimal strategy at each node of the game tree in standard Casino Blackjack.
 
-It accomplishes this by simulating the game, calculating the ev of each action as if each card was equally likely to come out. It dynamically stores the EV of each position in a hashmap, as each position can be hashed by its: Count, Whether an Ace is present, if the player has doubled down, etc. It then goes through every action and every possibility of the game tree to find the optimal strategy at each node and then prints it out at the end.
+It accomplishes this by simulating the game, calculating the ev of each action as if each card was equally likely to come out by running the game many many times from each position to estimates its ev. It dynamically stores the EV of each position in a hashmap, as each position can be hashed by its: Count, Whether an Ace is present, if the player has doubled down, etc. It then goes through every action and every possibility of the game tree to find the optimal strategy at each node and then prints it out at the end.
 
 EV of each position
 
