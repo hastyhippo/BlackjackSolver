@@ -4,7 +4,7 @@ This is a solver using MonteCarlo methods intended to find the EV of blackjack a
 
 It accomplishes this by simulating the game, calculating the ev of each action as if each card was equally likely to come out by running the game many many times from each position to estimates its ev. It dynamically stores the EV of each position in a hashmap, as each position can be hashed by its: Count, Whether an Ace is present, if the player has doubled down, etc. It then goes through every action and every possibility of the game tree to find the optimal strategy at each node and then prints it out at the end.
 
-EV of each position
+EV of each position.
 
 WITHOUT ACE: 
 
@@ -43,6 +43,11 @@ WITH ACE:
 ```
 For an average EV of -0.0137
 
+The following are heatmaps generated in MATLAB which visualise the EV of different spots:
+![image](https://github.com/user-attachments/assets/46cf96bc-83bf-4a24-bcb4-d500ef542e32)
+
+![image](https://github.com/user-attachments/assets/1200bff2-0eba-404b-ad86-88c15b08705a)
+
 And the appropriate action to take to maximise the EV.
 ```
   P\D       2       3       4       5       6       7       8       9      10      11
@@ -79,4 +84,4 @@ WITH AN ACE:
    20 |   STAND   STAND   STAND   STAND   STAND   STAND   STAND   STAND   STAND   STAND
    21 |   STAND   STAND   STAND   STAND   STAND   STAND   STAND   STAND   STAND   STAND
 ```
-   
+
