@@ -29,7 +29,7 @@ WITHOUT ACE:
 ```
 WITH ACE:
 ```
-  P\D       2       3       4       5       6       7       8       9      10
+  P\D       2       3       4       5       6       7       8       9      10      11
 ----------------------------------------------------------------------------------------
    13 |  0.0456  0.0720  0.1032  0.1284  0.1662  0.1207  0.0527 -0.0352 -0.1027 -0.0956
    14 |  0.0202  0.0527  0.0822  0.1086  0.1448  0.0775  0.0119 -0.0726 -0.1376 -0.1310
@@ -45,6 +45,8 @@ For an average EV of -0.0137
 
 And the appropriate action to take to maximise the EV.
 ```
+  P\D       2       3       4       5       6       7       8       9      10      11
+----------------------------------------------------------------------------------------
     4 |     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT
     5 |     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT
     6 |     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT
@@ -65,6 +67,8 @@ And the appropriate action to take to maximise the EV.
 ```
 WITH AN ACE:
 ```
+  P\D       2       3       4       5       6       7       8       9      10      11
+----------------------------------------------------------------------------------------
    13 |     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT
    14 |     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT
    15 |     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT     HIT
