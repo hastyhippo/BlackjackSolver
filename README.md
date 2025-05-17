@@ -47,6 +47,7 @@ The following are heatmaps generated in MATLAB which visualise the EV of differe
 ![image](https://github.com/user-attachments/assets/46cf96bc-83bf-4a24-bcb4-d500ef542e32)
 
 ![image](https://github.com/user-attachments/assets/1200bff2-0eba-404b-ad86-88c15b08705a)
+These results align with common blackjack strategy.
 
 And the appropriate action to take to maximise the EV.
 ```
